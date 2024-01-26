@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ABHISHEK WEB DEVELOPMENT</title>
+   <style>
+*  {
+    margin:0;
+    padding:0;
+  }
+.container
+{
+    display:flex;
+    font-family: 'Open Sans', sans-serif;
+    height:100vh;
+}
+.sidebar
+{
+    background-color:gainsboro;
+    font-family: 'Open Sans', sans-serif;
+    width:16vw;
+}
+
+.sidebar nav
+{
+   padding: 45px;
+   
+  
+}
+.main
+{
+    /*background-color: yellow;
+    */
+    width: 100vw;
+}
+.sidebar nav li{
+    list-style: none;
+    padding: 38px 0px;
+  
+    font-size:27px;
+    font-family: solid;
+}
+.infocontainer
+{
+    /*background-color:pink;*/
+    height:78vh;
+    width: 80vw;
+    margin: 144px auto; 
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.devPic img{
+    width: 275px;
+    height: 48vh;
+}
+.devinfo
+{
+    display: flex;
+    flex-direction: column;
+    font-size: 30px;
+}
+.hello
+{
+    font-size: 84px;
+    font-family: solid;
+}
+.moreabout
+{
+    font-size: 25px;
+}
+.Button button
+{
+  padding: 9px 14px;
+  border-radius:22px;
+  color:white;
+  background-color:dodgerblue;
+  font-weight:bold;
+  font-size:21px;
+  margin:0 3px;
+  cursor: pointer;
+}
+.Button button:hover
+{
+    background-color:white;
+    color:dodgerblue;
+}
+.Button{
+    margin-top:34px;
+}
+.sidebar nav li a
+{
+    text-decoration: none;
+    color:black;
+}
+.contactform h2
+{
+   text-align:center;
+}
+.contactform form  div{
+    padding:10px 0;
+    display:flex;
+    flex-direction:column;
+}
+.contactform form div input
+{
+    width: 16vw;
+    border-radius: 5px;
+    margin:6px 0;
+    padding:3px;
+}
+#emailHelp
+{
+    font-size:11px;
+    color:midnightblue;
+    margin:0 5px;
+}
+#form-check
+{
+    flex-direction: row;
+}
+#form-check input{
+    width:24px;
+    margin: 3px 0;
+}
+   </style>
+</head>
+<body>
+    <div class="container">
+    <div class="sidebar">
+        <nav>
+            <ul>
+             <li><a href="">HOME</a></li>
+                <li><a href="./intro.html">MY INTRO</a></li>
+                <li><a href="./service.html">SERVICES</a></li>
+                <li><a href="./blog.html">BLOG</a></li>
+                <li><a href="./contact.html">CONTACT ME</a></li>
+            </ul>
+        </nav>
+    </div>
+    <div class="main">
+        <div class="infocontainer">
+            <div class="devinfo">
+                <div class="hello">Hi I am </div>
+                <div class="name"><h3>ABHISHEK M</h3></div>
+                <div class="about">DEVELOPER,PROGRAMMER, DANCER </div>
+                <div class="moreabout">I am Developer and I love to drink milk, Currently i am in Mysore </div>
+                <diV class="Button">
+                    <a href="./cv.txt"><button>DOWNLODE CV</button></a>
+                    <a href="./contact.html"><button>CONTACT ME</button></a>
+                </diV>
+            </div>
+            <div class="devPic"><img src="./IMG-20231225-WA0041.jpg"></div>
+        </div>
+    </div>
+</div>
+</body>
+</html>
